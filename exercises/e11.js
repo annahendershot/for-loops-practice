@@ -7,7 +7,7 @@
 export function getAllWithdrawals(array) {
   // Your code goes here...
   const arr = [];
-  const sum = 0;
+  let sum = 0;
 
   for (let x of array) {
     if (x.withdrawals === undefined) {

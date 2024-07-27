@@ -5,8 +5,8 @@
 
 export function getClientWithGreatestBalance(array) {
   // Your code goes here...
-  const arr = [];
-  const max = 0;
+  let arr = [];
+  let max = 0;
 
   for (let x of array) {
     if (x.balance > max) {

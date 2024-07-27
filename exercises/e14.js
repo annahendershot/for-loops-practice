@@ -9,8 +9,8 @@ export function getClientsWithWrongBalance(array) {
   const wrongBalance = [];
 
   for (let account of array) {
-    const sumOfWithdrawals = 0;
-    const sumOfDeposits = 0;
+    let sumOfWithdrawals = 0;
+    let sumOfDeposits = 0;
     if (!account.withdrawals) {
       sumOfWithdrawals = 0;
     } else {
