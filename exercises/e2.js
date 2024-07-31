@@ -6,12 +6,9 @@ export function getNumbersWithSquareRoots(max) {
   // Your code goes here...
   const arr = [];
 
-  for (let i = 0; i < max; i++) {
-    if (Math.sqrt(i) % 1 === 0) {
-      arr.push(i);
-    }
+  for (let i = 0; i * i < max; i++) {
+    arr.push(i * i);
   }
-
   return arr;
 }
 
